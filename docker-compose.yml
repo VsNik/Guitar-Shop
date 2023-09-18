@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  postgres:
+    container_name: guitar-shop.postgres
+    image: postgres:14-alpine
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: guitar-shop
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  fakesmtp:
+    container_name: guitar-shop.fakesmtp
+    image: gessnerfl/fake-smtp-server
+    hostname: "fakesmtp"
+    ports:
+      - 8025:8025
+      - 1083:8080
+
+volumes:
+  postgres:
