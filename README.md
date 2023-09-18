@@ -83,3 +83,14 @@ nx run frontend:lint
 nx run-many --targets=lint
 ```
 
+## Используемые пакеты:
+### Backend
+- Nodejs
+- Express
+- Nest js
+- Swagger
+### Frontend
+- React js 18
+- Redux Toolkit
+- React hook form
+
