@@ -106,3 +106,6 @@ nx run-many --targets=lint
 - Redux Toolkit
 - React hook form
 - React router dom
+
+#### GitHub репозиторий:
+- https://github.com/VsNik/Guitar-Shop/tree/main
