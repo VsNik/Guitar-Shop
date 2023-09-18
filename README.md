@@ -48,6 +48,10 @@ npm start
 
 #### REST API документация доступна по адресу:
 http://localhost:3000/docs
+#### Backend
+http://localhost:3000/api
+#### Frontend + проксирется Backend
+http:localhost:4200
 
 
 ## Переменные окружения Backend:
@@ -93,8 +97,10 @@ nx run-many --targets=lint
 - Express
 - Nest js
 - Swagger
+- PostgreSQL
+- TypeORM
 ### Frontend
 - React js 18
 - Redux Toolkit
 - React hook form
-
+- React router dom
