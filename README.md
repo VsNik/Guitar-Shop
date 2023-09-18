@@ -46,6 +46,10 @@ nx run-many --target=serve --all --parallel=10
 npm start
 ```
 
+#### REST API документация доступна по адресу:
+http://localhost:3000/docs
+
+
 ## Переменные окружения Backend:
 NODE_ENV=окружение
 
