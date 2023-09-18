@@ -51,7 +51,7 @@ http://localhost:3000/docs
 #### Backend
 http://localhost:3000/api
 #### Frontend + проксирется Backend
-http:localhost:4200
+http://localhost:4200
 
 
 ## Переменные окружения Backend:
