@@ -92,6 +92,8 @@ nx run-many --targets=lint
 ```
 
 ## Используемые пакеты:
+### Монорепозиторий
+- Nx
 ### Backend
 - Nodejs
 - Express
