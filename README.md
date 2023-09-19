@@ -98,6 +98,9 @@ nx run frontend:lint
 nx run-many --targets=lint
 npm run start:cli
 ```
+email: admin@example.test
+
+password: admin
 
 ## Используемые пакеты:
 ### Монорепозиторий
