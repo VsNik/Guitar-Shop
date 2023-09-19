@@ -46,6 +46,13 @@ nx run-many --target=serve --all --parallel=10
 npm start
 ```
 
+Заполнение БД тестовыми данными
+
+```
+npm run start:cli n
+```
+Где n - количество записей
+
 #### REST API документация доступна по адресу:
 http://localhost:3000/docs
 #### Backend
@@ -89,6 +96,7 @@ nx run-many --target=serve --all --parallel=10
 nx run backend:lint
 nx run frontend:lint
 nx run-many --targets=lint
+npm run start:cli
 ```
 
 ## Используемые пакеты:

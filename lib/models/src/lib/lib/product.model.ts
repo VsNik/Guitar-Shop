@@ -1,8 +1,8 @@
-import { GuitarType, IProduct } from '@guitar-shop/lib/types';
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import {GuitarType} from "@guitar-shop/lib/types";
 
 @Entity('products')
-export class Product implements IProduct {
+export class Product {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 

@@ -1,9 +1,9 @@
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { IUser } from '@guitar-shop/lib/types';
-import { User } from './models/user.model';
 import { UserEntity } from './user.entity';
 import { Injectable } from '@nestjs/common';
+import {User} from "@guitar-shop/lib/models";
 
 @Injectable()
 export class UsersRepository {

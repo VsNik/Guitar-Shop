@@ -6,13 +6,12 @@ import { AppController } from './app.controller';
 import { validate } from './env.validation';
 import { getORMConfig } from './configs/orm.config';
 import { UsersModule } from './users/users.module';
-import { User } from './users/models/user.model';
 import { AuthMiddleware } from './users/auth/auth.middleware';
 import { ProductsModule } from './products/products.module';
-import { Product } from './products/models/product.model';
 import { UploaderModule } from './uploader/uploader.module';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { getServeConfig } from './configs/serveConfig';
+import {Product, User} from "@guitar-shop/lib/models";
 
 @Module({
   imports: [

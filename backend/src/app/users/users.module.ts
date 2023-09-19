@@ -4,9 +4,9 @@ import { UsersService } from './users.service';
 import { UsersController } from './users.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { getJWTConfig } from '../configs/jwt.config';
-import { User } from './models/user.model';
 import { UsersRepository } from './users.repository';
 import { MailModule } from '../mail/mail.module';
+import {User} from "@guitar-shop/lib/models";
 
 @Module({
   imports: [

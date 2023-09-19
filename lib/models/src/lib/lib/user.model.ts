@@ -1,8 +1,7 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
-import { IUser } from '@guitar-shop/lib/types';
+import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
 
 @Entity('users')
-export class User implements IUser{
+export class User {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 

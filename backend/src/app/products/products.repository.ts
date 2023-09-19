@@ -2,9 +2,9 @@ import { Injectable } from '@nestjs/common';
 import { Repository} from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { IProduct } from '@guitar-shop/lib/types';
-import { Product } from './models/product.model';
 import { ProductEntity } from './product.entity';
 import { ProductQuery } from './query/product.query';
+import {Product} from "@guitar-shop/lib/models";
 
 @Injectable()
 export class ProductsRepository {
@@ -35,7 +35,7 @@ export class ProductsRepository {
     }
 
     if (string_count) {
-      
+
       if (Array.isArray(string_count)) {
         qb.andWhere('product.stringCount IN (:...string_count)', {string_count});
       } else {

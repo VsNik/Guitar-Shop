@@ -15,6 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@guitar-shop/lib/entities": ["lib/entities/src/index.ts"],
+      "@guitar-shop/lib/lib/entities": ["lib/lib/entities/src/index.ts"],
+      "@guitar-shop/lib/models": ["lib/models/src/index.ts"],
+      "@guitar-shop/lib/repositories": ["lib/repositories/src/index.ts"],
       "@guitar-shop/lib/types": ["lib/types/src/index.ts"],
       "@guitar-shop/lib/utils": ["lib/utils/src/index.ts"]
     }
