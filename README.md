@@ -97,6 +97,7 @@ nx run backend:lint
 nx run frontend:lint
 nx run-many --targets=lint
 npm run start:cli
+npm run start:cli generate <n>
 ```
 email: admin@example.test
 

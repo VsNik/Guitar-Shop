@@ -28,8 +28,7 @@ export class AppCommand extends CommandRunner {
 
         Команды:
             --help          # Помощь
-            --version       # Версия
-            --generate <n> <connectionString>   # генерирует тестовые данные
+            --generate <n>  # генерирует тестовые данные
         `);
   }
 }

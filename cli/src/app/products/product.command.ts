@@ -1,5 +1,4 @@
 import {Command, CommandRunner, Option} from "nest-commander";
-import {LoggersService} from "../logger.service";
 import {ProductsService} from "./products.service";
 
 @Command({ name: 'generate', description: 'Generate fake products' })
@@ -16,7 +15,7 @@ export class ProductCommand extends CommandRunner {
   }
 
   runWithString(param: number, option: string): void {
-    console.log(param, 'Зкщвгсе шеуьы путукфеув');
+    console.log(param, 'products created');
   }
 
   @Option({
