@@ -6,6 +6,11 @@
 git clone git@github.com:VsNik/Guitar-Shop.git
 ```
 
+Скопировать .env.example как .env
+```
+cp ./backend/.env.example ./backend/.env
+```
+
 Установка зависимостей
 
 ```
